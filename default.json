@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"],
+  "extends": ["config:recommended", "schedule:weekly"],
   "dependencyDashboard": true,
   "timezone": "Pacific/Auckland",
-  "prConcurrentLimit": 5
+  "prConcurrentLimit": 5,
+  "minimumReleaseAge": "3 days"
 }
